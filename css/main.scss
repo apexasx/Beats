@@ -1,0 +1,19 @@
+$containerwidth: 900px;
+$baseFontSize: 16px;
+
+//colors
+$red: #E01F3D;
+
+//nornalize
+@import url(./layout/normalize.css);
+
+//setup
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import "./layout/layout";
+
+
+//components
+@import "./blocks/hero";
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/features";
