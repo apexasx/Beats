@@ -3,6 +3,7 @@ $baseFontSize: 16px;
 
 //colors
 $red: #E01F3D;
+$black: #292929;
 
 //nornalize
 @import url(./layout/normalize.css);
@@ -17,3 +18,8 @@ $red: #E01F3D;
 @import "./blocks/header";
 @import "./blocks/button";
 @import "./blocks/features";
+@import "./blocks/why";
+@import "./blocks/feedback";
+@import "./blocks/interactive-avatar";
+@import "./blocks/form";
+@import "./blocks/radio";
