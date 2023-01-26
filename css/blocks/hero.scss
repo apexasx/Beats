@@ -4,6 +4,7 @@
   min-height: 650px;
   color: $black;
   position: relative;
+  background: url(../img/Ellipse.png) right 0% bottom 30% / 50% auto no-repeat;
 
   &:before {
     position: absolute;
@@ -18,7 +19,6 @@
 }
 
 .hero__container {
-  background: url(../img/Ellipse.png) right 0% bottom 30% / 50% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
