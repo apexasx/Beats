@@ -21,7 +21,6 @@
   padding: 42px 42px 42px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 15px;
 
   &::before {
     content: "";
@@ -32,7 +31,7 @@
     border-radius: 50%;
     position: absolute;
     top: -58px;
-    left: 500px;
+    left: 47%;
   }
 }
 
@@ -44,15 +43,14 @@
 .feedback__display-inner {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   height: 348px;
   width: 940px;
-  padding: 42 42 42 42;
 }
 
 .feedback__avatar {
   width: 264px;
   height: 253px;
-  margin-left: 42px;
 }
 
 .feedback__avatar-img {
@@ -62,20 +60,22 @@
 }
 
 .feedback__content {
-  flex: 1;
-  margin-left: 40px;
-  margin-right: 107px;
+  display: flex;
+  flex-direction: column;
 }
 
 .feedback__headline{
+  margin-bottom: 27px;
   font-weight: bold;
   font-size: 24px;
   color: $black;
-  margin-bottom: 27px;
 }
 
 .feedback__text {
+  line-height: 19px;
   margin-bottom: 38px;
+  width: 500px; 
+  height: 97px;
 }
 
 .feedback__author {
@@ -87,4 +87,5 @@
 .feadback__switcher {
   display: flex;
   justify-content: center;
+  padding-top: 15px;
 }

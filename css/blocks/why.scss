@@ -12,9 +12,13 @@
   }
 }
 
+.why__container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
 .why__title {
-  margin-bottom: 60px;
-  margin-top: 101px;
   text-align: center;
   line-height: 52px;
 }
@@ -90,7 +94,7 @@
 .why__subtitle {
   text-align: center;
   padding: 0 26%;
-  margin-bottom: 62px;
+  // margin-bottom: 62px;
 }
 
 .why__item--title{
