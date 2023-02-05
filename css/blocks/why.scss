@@ -1,13 +1,13 @@
 .why {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   position: relative;
 
   &:before {
     position: absolute;
-    bottom: -24px;
-    left: 60px; 
+    bottom: -rem(24px);
+    left: rem(60px); 
     content: url(../img/red_polygon.png);
   }
 }
@@ -20,11 +20,11 @@
 
 .why__title {
   text-align: center;
-  line-height: 52px;
+  line-height: rem(52px);
 }
 
 .why__headline--title {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 .why__list {
@@ -38,7 +38,7 @@
   &::before {
     content: url(../img/Shape.png);
     position: absolute;
-    top: 55px;
+    top: rem(55px);
     right: 0;
     transform: translateX(50%);
   }
@@ -62,8 +62,8 @@
 
 .why__image--wrapper {
   display: inline-block;
-  width: 128px;
-  height: 128px;
+  width: rem(128px);
+  height: rem(128px);
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
@@ -71,12 +71,12 @@
 }
 
 .why__image{
-  margin-bottom: 24px;
+  margin-bottom: rem(24px);
 }
 
 .why__img {
-  width: 57px;
-  height: 60px;
+  width: rem(57px);
+  height: rem(60px);
   position: absolute;
   top: 50%;
   left: 50%; 
@@ -84,24 +84,24 @@
 }
 
 .why__img--charging {
-  width: 32px;
+  width: rem(32px);
 }
 
 .why__img--noise {
-  height: 52px;
+  height: rem(52px);
 }
 
 .why__subtitle {
   text-align: center;
   padding: 0 26%;
-  // margin-bottom: 62px;
+  // margin-bottom: rem(62px);
 }
 
 .why__item--title{
   font-weight: bold;
-  font-size: 24px;
+  font-size: rem(24px);
   color: $black;
-  margin-bottom: 7px;
+  margin-bottom: rem(7px);
 }
 
 .why__feature {
@@ -110,5 +110,5 @@
 
 // .why__section {
 //   position: relative;
-//   background: url(../img/red_polygon.png) left 7% bottom -11px no-repeat;
+//   background: url(../img/red_polygon.png) left 7% bottom -rem(11px) no-repeat;
 // }

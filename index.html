@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beats</title>
   <link rel="stylesheet" href="./css/main.css">
@@ -40,11 +40,16 @@
                 </li>
               </ul>
             </nav>
-            <a href="tel +78009039090" class="contacts__phone">
+            <a href="tel +78009039090" class="contacts__phone header__phone-number">
               <span class="contacts__phone--icon">
                 <img src="./img/phone.svg" alt="phone" class="contacts__phone--icon--elem">
               </span>
               <span class="contacts__phone--text">8 800 903 90 90</span>
+            </a>
+            <a href="" class="hamburger">
+              <span class="hamburger__plank"></span>
+              <span class="hamburger__plank"></span>
+              <span class="hamburger__plank"></span>             
             </a>          
           </header>
           <div class="hero__title--section">
@@ -219,7 +224,7 @@
           </h2>
         </div>
       </section> -->
-      <section class="order order-section">
+      <section class="order order-section order-section--font-color--white">
         <div class="container">
           <h2 class="section__title">закажите доставку</h2>
           <form class="form">
@@ -284,6 +289,10 @@
                     <div class="radio__title">Не перезванивать</div>
                   </label>
                 </div>
+                <div class="form__btns">
+                  <button type="submit" class="button button--red">заказать</button>
+                  <input type="reset" value="Очистить" class="button button--transparent">
+                </div>
               </div>
             </div>
           </form>
@@ -291,5 +300,18 @@
       </section>
     </div>
   </div>
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item fixed-menu__item--active"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+      <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a>
+    </ul>
+  </nav>
 </body>
 </html>

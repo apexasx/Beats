@@ -1,16 +1,16 @@
 .feedback__section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 15px ;
+  margin-bottom: rem(15px) ;
   position: relative;
 
   &:before {
     position: absolute;
-    bottom: -37px;
-    left: 60px; 
+    bottom: -rem(37px);
+    left: rem(60px); 
     content: url(../img/Ellipse7.png);
   }
   
@@ -18,39 +18,39 @@
 
 .feedback__display {
   background: #F8FAF9;
-  padding: 42px 42px 42px;
+  padding: rem(42px) rem(42px) rem(42px);
   overflow: hidden;
   position: relative;
 
   &::before {
     content: "";
     display: block;
-    width: 83px;
-    height: 83px;
+    width: rem(83px);
+    height: rem(83px);
     background: #fff;
     border-radius: 50%;
     position: absolute;
-    top: -58px;
+    top: -rem(58px);
     left: 47%;
   }
 }
 
 .feedback__title-content {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: rem(32px);
 }
 
 .feedback__display-inner {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 348px;
-  width: 940px;
+  height: rem(348px);
+  width: rem(940px);
 }
 
 .feedback__avatar {
-  width: 264px;
-  height: 253px;
+  width: rem(264px);
+  height: rem(253px);
 }
 
 .feedback__avatar-img {
@@ -65,27 +65,27 @@
 }
 
 .feedback__headline{
-  margin-bottom: 27px;
+  margin-bottom: rem(27px);
   font-weight: bold;
-  font-size: 24px;
+  font-size: rem(24px);
   color: $black;
 }
 
 .feedback__text {
-  line-height: 19px;
-  margin-bottom: 38px;
-  width: 500px; 
-  height: 97px;
+  line-height: rem(19px);
+  margin-bottom: rem(38px);
+  width: rem(500px); 
+  height: rem(97px);
 }
 
 .feedback__author {
   font-weight: bold;
-  font-size: 18px;
+  font-size: rem(18px);
   color: $black;
 }
 
 .feadback__switcher {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: rem(15px);
 }

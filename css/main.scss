@@ -1,9 +1,20 @@
-$containerwidth: 900px;
+$containerwidth: 1100px;
 $baseFontSize: 16px;
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
 
 //colors
 $red: #E01F3D;
 $black: #292929;
+
+//z-indexes
+
+$z-fixed-menu: 100;
+
+@import "media";
 
 //nornalize
 @import url(./layout/normalize.css);
@@ -23,3 +34,5 @@ $black: #292929;
 @import "./blocks/interactive-avatar";
 @import "./blocks/form";
 @import "./blocks/radio";
+@import "./blocks/fixed-menu";
+@import "./blocks/hamburger";
