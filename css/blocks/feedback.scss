@@ -30,7 +30,7 @@
     background: #fff;
     border-radius: 50%;
     position: absolute;
-    top: -rem(58px);
+    top: rem(-58px);
     left: 47%;
   }
 }
@@ -46,11 +46,22 @@
   justify-content: space-evenly;
   height: rem(348px);
   width: rem(940px);
+
+  @include tablets {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .feedback__avatar {
   width: rem(264px);
   height: rem(253px);
+
+  @include tablets {
+    width: rem(130px);
+    height: rem(130px);
+  }
 }
 
 .feedback__avatar-img {
@@ -69,6 +80,10 @@
   font-weight: bold;
   font-size: rem(24px);
   color: $black;
+
+  @include tablets {
+    margin-bottom: 16px;
+  }
 }
 
 .feedback__text {
@@ -76,6 +91,10 @@
   margin-bottom: rem(38px);
   width: rem(500px); 
   height: rem(97px);
+
+  @include tablets {
+    margin-bottom: 16px;
+  }
 }
 
 .feedback__author {

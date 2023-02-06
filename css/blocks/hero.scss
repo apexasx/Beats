@@ -14,10 +14,11 @@
 
   &:before {
     position: absolute;
-    bottom: -rem(25px);
+    bottom: rem(-25px);
     right: 13%; 
     content: url("../img/Rectangle2.png")
   }
+
 }
 
 .hero__title--section {

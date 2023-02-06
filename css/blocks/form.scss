@@ -25,6 +25,11 @@
 
 .form {
   display: flex;
+  
+  @include tablets {
+    padding: 0 19%;
+    flex-direction: column;
+  }
 }
 
 .form__col {
@@ -32,6 +37,10 @@
   margin-right: rem(20px);
 
   &:last-child {
+    margin-right: 0;
+  }
+
+  @include tablets {
     margin-right: 0;
   }
 }
@@ -75,11 +84,26 @@
   &--textarea {
     height: rem(152px);
     resize: none;
+
+    // @include tablets {
+    //   &--textarea {
+    //     height: rem(82px);
+    //   }
+    // }
   }
   
   &:focus {
     border-color: #E01F3D;
     outline: none;
+  }
+
+  @include tablets {
+    height: 50%;
+
+    &--textarea {
+      height: rem(82px);
+    }
+
   }
 }
 
@@ -90,5 +114,8 @@
 
 .form__btns {
   padding-top: rem(46px);
+  display: flex;
+  justify-content: center;
+
 }
 

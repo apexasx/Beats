@@ -6,7 +6,7 @@
 
   &:before {
     position: absolute;
-    bottom: -rem(24px);
+    bottom: rem(-24px);
     left: rem(60px); 
     content: url(../img/red_polygon.png);
   }
@@ -94,7 +94,6 @@
 .why__subtitle {
   text-align: center;
   padding: 0 26%;
-  // margin-bottom: rem(62px);
 }
 
 .why__item--title{
@@ -107,8 +106,3 @@
 .why__feature {
   padding: 0 12%;
 }
-
-// .why__section {
-//   position: relative;
-//   background: url(../img/red_polygon.png) left 7% bottom -rem(11px) no-repeat;
-// }
